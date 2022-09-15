@@ -94,7 +94,10 @@ class _AddItemState extends State<AddItem> {
                 style: ElevatedButton.styleFrom(textStyle: const TextStyle(fontSize: 30)),
                 onPressed: () {
                   itemSetup(productNameController.text, upcController.text, int.parse(productQuantityController.text), int.parse(productQuantityController.text));
-                },
+                  productNameController.clear();
+                  productQuantityController.clear();
+                  productQuantityController.clear();
+                  },
                 child: const Text('Add'),
               ),
             ]

@@ -52,8 +52,8 @@ android {
         applicationId "com.owner_budday_b"
         minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+        versionCode 2
+        versionName "2.0.0"
         multiDexEnabled true
     }
 
